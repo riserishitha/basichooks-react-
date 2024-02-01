@@ -1,7 +1,7 @@
 import { createContext, useState,  } from "react";
 import "./App.css";
 import Task from "./component/task";
-export  const theam=createContext()
+export  const theam =createContext()
 function App(){
     const [state,setsta]=useState(false)
     return(

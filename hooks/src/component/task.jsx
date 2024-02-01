@@ -13,7 +13,7 @@ function Task() {
     const start = () => {
         setInitial(initial + 1);
     };
-    const showAlert = () => {
+    const useEffect = () => {
         if (displayText !== "") {
             setDisplayText("");
         } else {
@@ -25,7 +25,7 @@ function Task() {
         <div style={themeStyle} >
             <div>
             <p>{displayText}</p>
-                <button onClick={showAlert}>Context</button>
+                <button onClick={useEffect}>Context</button>
             </div>
             <div>
                 <span>{initial}</span>
@@ -38,5 +38,4 @@ function Task() {
 }
 export default Task;
 
-Task.js
 
